@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="img/logoSpoty.png" alt="">
+        <form>
+            <button class="facebook" type="button">INICIAR SESIÓN CON FACEBOOK</button>
+            <p style="color: #727D75;">_______________ O _______________</p>
+            <input type="text" id="username" placeholder="Nombre de usuario" onblur="validateUsername()">
+            <p class="error" id="usernameError"></p>
+            <input type="password" id="password" placeholder="Contraseña" onblur="validatePassword()">
+            <p class="error" id="passwordError"></p>
+            <label class="terminos" for="acceptTerms">
+                <input type="checkbox" id="acceptTerms" onclick="validateTerms()"> Acepto los términos y condiciones
+            </label>
+            <button class="inicioSesion" type="button" onclick="validateUsername(); validatePassword(); validateTerms()">INICIAR SESIÓN</button>
+        </form>
+    </div>
+</body>
+</html>

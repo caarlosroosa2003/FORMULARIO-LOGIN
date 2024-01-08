@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(img/fondo.jpeg);
+    text-align: center;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    height: 10px;
+    padding: 10px;
+    margin: 5px -10px;
+    border: 1px solid #404040;
+    border-radius: 1px;
+    background-color: #404040;
+    color: #c6c8c6;
+    margin-top: 20px;
+}
+
+.inicioSesion {
+    background-color: #1DB954;
+    color: #E2F5FE;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 50px;
+    width: 200px;
+}
+
+.inicioSesion:hover {
+    background-color: #189543;
+}
+
+.facebook {
+    background-color: #3B5999;
+    color: #E2F5FE;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+.facebook:hover {
+    background-color: #2c4170;
+}
+
+p.error {
+    color: rgba(255, 0, 0, 0.821);
+    font-size: 14px;
+    display: none;
+}
+
+.logo {
+    width: 200px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+    margin-top: 30px;
+}
+
+.terminos {
+    color: #c6c8c6;
+}
